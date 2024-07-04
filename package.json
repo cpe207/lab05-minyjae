@@ -5,9 +5,11 @@
   "main": "index.js",
   "devDependencies": {
     "@babel/core": "*",
-    "babel-jest": "*",
     "@babel/preset-env": "*",
-    "jest": "^27.0.6"
+    "@types/node": "^20.14.9",
+    "babel-jest": "*",
+    "jest": "^27.0.6",
+    "typescript": "^5.5.3"
   },
   "scripts": {
     "test": "jest"
